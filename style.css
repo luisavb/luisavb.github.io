@@ -1,0 +1,58 @@
+body {
+    background-color: #F8EDEB;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    /* width:fit-content; */
+    color: #343a40;
+}
+img {
+    
+}
+
+#index {
+
+    /* width: 80%; */
+    margin: auto;
+}
+
+#index a[href*="foto"] {
+    
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle; 
+    text-align: center;
+    text-decoration: none;
+}
+
+#index a[href*="bio"] {
+
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle; 
+    text-align: center;
+    text-decoration: none;
+}
+
+#index a[href*="habilidades"] {
+  
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle; 
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#name, #bio {
+    text-align: center;
+}
+
+#bio {
+    padding: 20px 20px;
+    background-color: #FEC5BB;
+    margin: auto;
+}
+
