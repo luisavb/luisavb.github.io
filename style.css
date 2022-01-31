@@ -5,54 +5,140 @@ body {
     /* width:fit-content; */
     color: #343a40;
 }
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 'Cormorant Garamond', serif;
+    font-size: 26px;
+}
+ 
+
 img {
-    
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+p, li {
+    font-family: 'Vollkorn', serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
 }
 
 #index {
-
-    /* width: 80%; */
+    width: 80%; /* largura especifica para index, no caso 80% do total */
     margin: auto;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
 }
 
 #index a[href*="foto"] {
-    
-    width: 30%;
-    margin: 10px;
+    width: 28%;
+    border-radius: 10px;
+    margin: 8px;
     display: inline-block;
     vertical-align: middle; 
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    color:black;
+    padding: 5px;
+    background-color: #E8E8E4;
 }
 
 #index a[href*="bio"] {
-
-    width: 30%;
-    margin: 10px;
+    width: 28%;
+    border-radius: 10px;
+    margin: 8px;
     display: inline-block;
     vertical-align: middle; 
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    color:black;
+    padding: 5px;
+    background-color: #E8E8E4;
 }
 
 #index a[href*="habilidades"] {
-  
-    width: 30%;
-    margin: 10px;
+    width: 28%;
+    border-radius: 10px;
+    margin: 8px;
     display: inline-block;
     vertical-align: middle; 
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    color:black;
+    padding: 5px;
+    background-color: #E8E8E4;
 }
 
 
-#name, #bio {
+/* border-radius: 25px;
+border: 2px solid;
+border-color: #333A42;
+background-color: #0d1013;
+background-position: left top;
+background-repeat: repeat;
+padding: 20px;
+margin: 20px;
+margin-left: 10%;
+font-family: 'Source Code Pro', monospace;
+font-size: 1rem; */
+
+
+#header, #bio, #habilidades {
     text-align: center;
 }
 
+#links a[href*="linkedin"] {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #343a40;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #FFD7BA;
+}
+
+#links a[href*="lattes"] {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #343a40;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+    background-color: #CBC0D3;
+}
+
+#links a[href*="github"] {
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #343a40;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+    background-color: #D8E2DC;
+}
+
+
 #bio {
-    padding: 20px 20px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 10px;
     background-color: #FEC5BB;
     margin: auto;
+}
+
+#bio p {
+    width: 80%;
 }
 
